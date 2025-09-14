@@ -176,68 +176,6 @@ The project includes comprehensive visualizations:
 - **ROC Curves**: Model discrimination capability
 - **Performance Metrics Dashboard**: Comprehensive evaluation summary
 
-## 🛠️ Installation & Setup
-
-### Prerequisites
-- Python 3.8 or higher
-- pip package manager
-
-### Quick Start
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/warranty-fraud-detection.git
-cd warranty-fraud-detection
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the main analysis
-python src/model_training.py
-```
-
-### Dependencies
-```bash
-pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn
-```
-
-## 📂 Repository Structure
-
-```
-warranty-fraud-detection/
-│
-├── data/
-│   ├── raw/                 # Original warranty claim dataset (334 samples)
-│   └── processed/           # SMOTE-balanced training data
-│
-├── notebooks/
-│   ├── 01_EDA.ipynb        # Exploratory Data Analysis
-│   ├── 02_preprocessing.ipynb # Data preprocessing & SMOTE
-│   ├── 03_modeling.ipynb    # Model training & hyperparameter tuning
-│   ├── 04_evaluation.ipynb  # Model comparison & evaluation
-│   └── 05_feature_importance.ipynb # Feature analysis
-│
-├── src/
-│   ├── data_preprocessing.py # SMOTE and preprocessing utilities
-│   ├── model_training.py    # Anti-overfitting model training
-│   ├── evaluation.py       # Comprehensive evaluation metrics
-│   └── visualization.py    # Model comparison visualizations
-│
-├── models/
-│   ├── random_forest_best.pkl  # Final production model
-│   ├── decision_tree.pkl       # Baseline comparison model
-│   └── preprocessing_pipeline.pkl # Data preprocessing objects
-│
-├── results/
-│   ├── model_comparison.csv    # Performance metrics comparison
-│   ├── confusion_matrices.png  # Visual model comparison
-│   ├── feature_importance.png  # Key fraud indicators
-│   └── overfitting_analysis.json # Training vs test performance
-│
-├── requirements.txt         # Project dependencies
-├── README.md              # Project documentation
-└── LICENSE                # Project license
-```
-
 ## 🛠️ Technical Stack
 
 **Core Technologies:**
@@ -288,17 +226,11 @@ print(f"Prediction: {'Fraudulent' if predictions[0] == 1 else 'Genuine'}")
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 📞 Contact & Support
 
 **👨‍💻 Author**: Rohan Kumar  
 **🎓 Education**: B.Tech CSE (2022–2026)  
-**💼 Specialization**: Machine Learning & Fraud Detection  
-**🏆 Achievement**: Solved overfitting challenge in imbalanced fraud detection  
-**📧 Email**: rohankumar.cse2026@kiit.ac.in  
+**📧 Email**: rohanku2111@gmail.com 
 **🔗 LinkedIn**: [Your LinkedIn Profile]  
 
 ---
