@@ -231,7 +231,7 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 **👨‍💻 Author**: Rohan Kumar  
 **🎓 Education**: B.Tech CSE (2022–2026)  
 **📧 Email**: rohanku2111@gmail.com 
-**🔗 LinkedIn**: [Your LinkedIn Profile]  
+**🔗 LinkedIn**: [[rohan-kumar2104]  ](https://www.linkedin.com/in/rohan-kumar-5690b2328/)
 
 ---
 
